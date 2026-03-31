@@ -1,7 +1,7 @@
 ---
 description: >-
-  Connect Google Drive to pull shared documents into Lema — no service accounts
-  or API configuration required.
+  Connect Google Drive to pull shared document data into Lema — no service
+  accounts or API configuration required.
 layout:
   width: default
   title:
@@ -24,9 +24,12 @@ layout:
 
 ### About the integration
 
+<table><thead><tr><th width="160"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td>Category</td><td>File Storage</td><td></td></tr><tr><td>Data collected</td><td>Devices, Users, Shared Documents</td><td></td></tr><tr><td>Setup time</td><td>~1 minute</td><td></td></tr><tr><td>Prerequisites</td><td>A Google account with access to the Drive folders you want to connect</td><td></td></tr></tbody></table>
 
-
-<table><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td>Data collected</td><td>Devices, Users, Shared Documents</td><td></td></tr><tr><td>Setup time</td><td>~1 minute</td><td></td></tr><tr><td>Prerequisites</td><td>A Google account with access to the Drive folders you want to connect</td><td></td></tr></tbody></table>
+{% hint style="success" %}
+**No technical setup required.**\
+Google Drive uses a standard OAuth flow — no service accounts, domain delegation, or API configuration needed.
+{% endhint %}
 
 ### Integration steps
 
@@ -38,7 +41,4 @@ layout:
 4. Select the specific folders you want Lema to access.
 5. Click **Add Integration**.
 
-
-
 Lema will start pulling shared document data from your selected folders right away.
-
