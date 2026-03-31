@@ -33,11 +33,11 @@ Lema supports two Jira connection modes. Choose the one that fits your workflow 
 
 {% tabs %}
 {% tab title="Issue Management" %}
-### Integration steps
+#### Integration steps
 
 {% stepper %}
 {% step %}
-#### Create a dedicated Atlassian account
+**Create a dedicated Atlassian account**
 
 In your **Atlassian Admin console**, create either:
 
@@ -48,7 +48,7 @@ Ensure this account has the appropriate project-level permissions in every Jira 
 {% endstep %}
 
 {% step %}
-#### Generate an API token
+**Generate an API token**
 
 1. Log in to the dedicated account and go to **id.atlassian.com → Security → API tokens**.
 2. Click **Create API token**, give it a label (e.g. `Lema Integration`), and copy the generated token.
@@ -62,7 +62,7 @@ Ensure the token has the following permission scopes:\
 {% endstep %}
 
 {% step %}
-#### Connect in Lema
+**Connect in Lema**
 
 1. Go to **Integrations → + Add Integration → Jira (Issue Management)**.
 2. Select your **Account Type** — **Cloud** or **Server**.
@@ -74,11 +74,11 @@ Ensure the token has the following permission scopes:\
 {% endtab %}
 
 {% tab title="Intake" %}
-### Integration steps
+#### Integration steps
 
 {% stepper %}
 {% step %}
-#### Generate a webhook URL in Lema
+**Generate a webhook URL in Lema**
 
 1. Go to **Integrations → + Add Integration → Jira (Intake)**.
 2. Click **Generate Webhook URL** and copy the URL.
@@ -89,7 +89,7 @@ Save this URL immediately — it is shown only once.
 {% endstep %}
 
 {% step %}
-#### Create a Global Automation rule in Jira
+**Create a Global Automation rule in Jira**
 
 1. In Jira, go to **Settings → System → Global Automation** (or the Automation section within your project).
 2. Create a new rule and set your trigger (e.g. **Issue Created** or **Issue Transitioned**).

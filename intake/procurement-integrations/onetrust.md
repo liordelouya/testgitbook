@@ -33,11 +33,11 @@ Lema supports two OneTrust connection modes. Choose the one that fits your workf
 
 {% tabs %}
 {% tab title="Intake only" %}
-### Integration steps
+#### Integration steps
 
 {% stepper %}
 {% step %}
-#### Generate a webhook URL in Lema
+**Generate a webhook URL in Lema**
 
 1. Go to **Integrations → + Add Integration → OneTrust (Intake)**.
 2. Click **Generate Webhook URL** and copy the URL when it appears.
@@ -48,7 +48,7 @@ Save this URL immediately — it is shown only once.
 {% endstep %}
 
 {% step %}
-#### Configure the webhook in OneTrust
+**Configure the webhook in OneTrust**
 
 1. In OneTrust, go to the **Integrations** tab and click **Add Integration**.
 2. Select **Third Party Risk Management** as the integration type.
@@ -73,11 +73,11 @@ From now on, every new vendor created in OneTrust will automatically appear in L
 {% endtab %}
 
 {% tab title="Bi-directional" %}
-### Integration steps
+#### Integration steps
 
 {% stepper %}
 {% step %}
-#### Generate client credentials in OneTrust
+**Generate client credentials in OneTrust**
 
 1. In OneTrust, go to **Settings → Developer Portal** (or equivalent) and create a new **OAuth client**.
 2. Assign the following scopes:
@@ -88,7 +88,7 @@ From now on, every new vendor created in OneTrust will automatically appear in L
 {% endstep %}
 
 {% step %}
-#### Generate a webhook URL in Lema
+**Generate a webhook URL in Lema**
 
 1. Go to **Integrations → + Add Integration → OneTrust (Bi-directional)**.
 2. Click **Generate Webhook URL** and copy the URL.
@@ -99,7 +99,7 @@ Save this URL immediately — it is shown only once.
 {% endstep %}
 
 {% step %}
-#### Configure the OneTrust webhook
+**Configure the OneTrust webhook**
 
 1. In OneTrust, go to **Integrations → Webhooks** and add a new webhook.
 2. Paste your **Lema webhook URL** as the endpoint.
@@ -111,7 +111,7 @@ Save this URL immediately — it is shown only once.
 {% endstep %}
 
 {% step %}
-#### Enable Issues Sync (optional)
+**Enable Issues Sync (optional)**
 
 Turn on **Issues Sync** to push control gaps identified in Lema back into OneTrust as issues, and to have OneTrust status updates reflected in Lema.
 
