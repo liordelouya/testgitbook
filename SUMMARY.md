@@ -2,18 +2,18 @@
 
 * [Welcome](README.md)
 * [Integrations](integrations/README.md)
-  * [Identity Providers](integrations/identity-providers.md)
+  * Identity Providers
     * [Google Workspace](integrations/google-workspace.md)
     * [Microsoft Entra ID](integrations/microsoft-entra-id.md)
     * [Okta](integrations/okta.md)
-  * [Google](integrations/google.md)
+  * Google
     * [Gmail](integrations/gmail.md)
     * [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
     * [Google Drive](integrations/google-drive.md)
-  * [Cloud Security](integrations/cloud-security.md)
+  * Cloud Security
     * [Wiz](integrations/wiz.md)
     * [Netskope](integrations/netskope.md)
-  * [Procurement](integrations/procurement.md)
+  * Procurement
     * [Asana](integrations/asana.md)
     * [Coupa](integrations/coupa.md)
     * [GraphiteConnect](integrations/graphiteconnect.md)
