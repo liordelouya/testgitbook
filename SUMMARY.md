@@ -56,6 +56,12 @@
 * [Findings](monitoring/findings.md)
 * [Agentic Risk Engineer](monitoring/agentic-risk-engineer.md)
 
+## Analytics&#x20;
+
+* [Risk](analytics/risk.md)
+* [Efficiency](analytics/efficiency.md)
+* [Business](analytics/business.md)
+
 ## Settings
 
 * [Assessment Settings](settings/assessment-settings/README.md)
