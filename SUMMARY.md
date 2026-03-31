@@ -1,34 +1,25 @@
 # Table of contents
 
 * [Welcome](README.md)
-
-## Integrations
-
-### Identity Providers
-
-* [Google Workspace](integrations/google-workspace.md)
-* [Microsoft Entra ID](integrations/microsoft-entra-id.md)
-* [Okta](integrations/okta.md)
-
-### Google
-
-* [Gmail](integrations/gmail.md)
-* [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
-* [Google Drive](integrations/google-drive.md)
-
-### Cloud Security
-
-* [Wiz](integrations/wiz.md)
-* [Netskope](integrations/netskope.md)
-
-### Procurement
-
-* [Asana](integrations/asana.md)
-* [Coupa](integrations/coupa.md)
-* [GraphiteConnect](integrations/graphiteconnect.md)
-* [Jira](integrations/jira.md)
-* [LogicManager](integrations/logicmanager.md)
-* [OneTrust](integrations/onetrust.md)
-* [Ramp](integrations/ramp.md)
-* [Vendr](integrations/vendr.md)
-* [Zip](integrations/zip.md)
+* [Integrations](integrations/README.md)
+  * [Identity Providers](integrations/identity-providers.md)
+    * [Google Workspace](integrations/google-workspace.md)
+    * [Microsoft Entra ID](integrations/microsoft-entra-id.md)
+    * [Okta](integrations/okta.md)
+  * [Google](integrations/google.md)
+    * [Gmail](integrations/gmail.md)
+    * [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
+    * [Google Drive](integrations/google-drive.md)
+  * [Cloud Security](integrations/cloud-security.md)
+    * [Wiz](integrations/wiz.md)
+    * [Netskope](integrations/netskope.md)
+  * [Procurement](integrations/procurement.md)
+    * [Asana](integrations/asana.md)
+    * [Coupa](integrations/coupa.md)
+    * [GraphiteConnect](integrations/graphiteconnect.md)
+    * [Jira](integrations/jira.md)
+    * [LogicManager](integrations/logicmanager.md)
+    * [OneTrust](integrations/onetrust.md)
+    * [Ramp](integrations/ramp.md)
+    * [Vendr](integrations/vendr.md)
+    * [Zip](integrations/zip.md)
