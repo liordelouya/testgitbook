@@ -4,8 +4,31 @@
 
 ## Integrations
 
+### Identity Providers
+
 * [Google Workspace](integrations/google-workspace.md)
+* [Microsoft Entra ID](integrations/microsoft-entra-id.md)
+* [Okta](integrations/okta.md)
+
+### Google
+
 * [Gmail](integrations/gmail.md)
 * [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
 * [Google Drive](integrations/google-drive.md)
-* [Microsoft Entra ID](integrations/microsoft-entra-id.md)
+
+### Cloud Security
+
+* [Wiz](integrations/wiz.md)
+* [Netskope](integrations/netskope.md)
+
+### Procurement
+
+* [Asana](integrations/asana.md)
+* [Coupa](integrations/coupa.md)
+* [GraphiteConnect](integrations/graphiteconnect.md)
+* [Jira](integrations/jira.md)
+* [LogicManager](integrations/logicmanager.md)
+* [OneTrust](integrations/onetrust.md)
+* [Ramp](integrations/ramp.md)
+* [Vendr](integrations/vendr.md)
+* [Zip](integrations/zip.md)
