@@ -9,7 +9,7 @@
 ## Intake
 
 * [Third Party Request Portal](intake/third-party-request-portal.md)
-* [Vendor Requests](intake/vendor-requests.md)
+* [Requests Queue](intake/requests-queue.md)
 * [Procurement Integrations](intake/procurement-integrations/README.md)
   * [Asana](intake/procurement-integrations/asana.md)
   * [Coupa](intake/procurement-integrations/coupa.md)
