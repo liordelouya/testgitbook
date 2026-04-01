@@ -38,6 +38,7 @@
   * [Questionnaires](assessments/managing-assessment/questionnaires.md)
   * [Controls](assessments/managing-assessment/controls.md)
   * [Concluding an Assessment](assessments/managing-assessment/concluding-assessment.md)
+* [Assessment Summary](assessments/assessment-summary.md)
 * [Vendor Portal](assessments/vendor-portal.md)
 * [Assessment Score (Residual Risk)](assessments/assessment-score-residual-risk.md)
 
