@@ -26,10 +26,12 @@ Click any control to open its detail drawer. It shows:
 * **Control question** — what Lema is evaluating
 * **Lema AI Insights** — a forensic summary of what was found (or not found) in the vendor's artifacts, including the specific search terms used and what the documents contained
 * **Suggested Actions** — concrete next steps recommended by Lema based on the current evidence gap
-* **Validation Status** — manually set or confirm the status: **Validated**, **No Evidence**, or **Gap**
+* **Validation Status** — manually set or confirm the AI status: **Validated**, **No Evidence**, or **Gap**
+* **Evidence** — the relevant quote within an artifact that helped the agent determine the status
 
 {% hint style="info" %}
 Lema evaluates controls automatically when artifacts are uploaded and assessment is ongoing. The timestamp shown on each control reflects when it was last evaluated.
 {% endhint %}
 
-For details on how controls are defined and configured, see [Controls Settings](../../../settings/assessment-settings/controls.md).
+For details on how controls are defined and configured, see [Controls Settings](../../../settings/assessment-settings/controls.md). To learn more about how Controls work, read in Lema [concepts](../../../get-started/concepts.md).&#x20;
+
