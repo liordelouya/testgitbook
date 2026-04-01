@@ -1,3 +1,7 @@
+---
+description: Let business users across your organization submit vendor requests
+---
+
 # Third-Party Request Portal
 
 The Request Portal is a standalone web form that lets business users across your organization submit vendor requests directly to the TPRM team — no procurement system required.

@@ -1,3 +1,7 @@
+---
+description: Central triage hub for all incoming vendor requests
+---
+
 # Requests Queue
 
 The Requests Queue is your central triage hub for all incoming vendor requests — whether they come from the [Third-Party Request Portal](third-party-request-portal.md), a connected procurement system (Zip, Jira, Coupa, etc.), or a webhook integration.
