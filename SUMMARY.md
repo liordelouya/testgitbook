@@ -2,23 +2,13 @@
 
 ## Get Started
 
-* [Quick Start](get-started/quick-start.md)
+* [Quick Start](README.md)
 * [Concepts](get-started/concepts.md)
 
 ## Intake
 
 * [Third-Party Request Portal](intake/third-party-request-portal.md)
 * [Requests Queue](intake/requests-queue.md)
-* [Procurement Integrations](intake/procurement-integrations/README.md)
-  * [Jira](intake/procurement-integrations/jira.md)
-  * [Coupa](intake/procurement-integrations/coupa.md)
-  * [Zip](intake/procurement-integrations/zip.md)
-  * [Asana](intake/procurement-integrations/asana.md)
-  * [Ramp](intake/procurement-integrations/ramp.md)
-  * [Vendr](intake/procurement-integrations/vendr.md)
-  * [OneTrust](intake/procurement-integrations/onetrust.md)
-  * [Graphite Connect](intake/procurement-integrations/graphiteconnect.md)
-  * [LogicManager](intake/procurement-integrations/logicmanager.md)
 
 ## Inventory
 
@@ -61,20 +51,6 @@
 * [Business](analytics/business.md)
 * [Efficiency](analytics/efficiency.md)
 
-## Integrations
-
-* [Identity Providers](integrations/identity-providers/README.md)
-  * [Okta](integrations/okta.md)
-  * [Microsoft Entra ID](integrations/microsoft-entra-id.md)
-* [Google](integrations/google/README.md)
-  * [Google Workspace](integrations/google-workspace.md)
-  * [Gmail](integrations/gmail.md)
-  * [Google Drive](integrations/google-drive.md)
-  * [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
-* [Cloud Security](integrations/cloud-security/README.md)
-  * [Wiz](integrations/wiz.md)
-  * [Netskope](integrations/netskope.md)
-
 ## Settings
 
 * [Users & Permissions](settings/users-and-permissions.md)
@@ -90,29 +66,26 @@
   * [Questionnaire Templates](settings/assessment-settings/questionnaires-templates.md)
   * [Summary Template](settings/assessment-settings/summary-template.md)
 
-## API Reference
+## Integrations
 
-* [Create/Update Third Party API](README.md)
-  * ```yaml
-    type: builtin:openapi
-    props:
-      models: true
-      downloadLink: false
-    dependencies:
-      spec:
-        ref:
-          kind: openapi
-          spec: update-vendor
-    ```
-* [Get Third Parties API](api-reference/get-third-parties-api/README.md)
-  * ```yaml
-    type: builtin:openapi
-    props:
-      models: true
-      downloadLink: false
-    dependencies:
-      spec:
-        ref:
-          kind: openapi
-          spec: get-companies
-    ```
+* [Procurement Integrations](integrations/procurement-integrations/README.md)
+  * [Jira](integrations/procurement-integrations/jira.md)
+  * [Coupa](integrations/procurement-integrations/coupa.md)
+  * [Zip](integrations/procurement-integrations/zip.md)
+  * [Asana](integrations/procurement-integrations/asana.md)
+  * [Ramp](integrations/procurement-integrations/ramp.md)
+  * [Vendr](integrations/procurement-integrations/vendr.md)
+  * [OneTrust](integrations/procurement-integrations/onetrust.md)
+  * [Graphite Connect](integrations/procurement-integrations/graphiteconnect.md)
+  * [LogicManager](integrations/procurement-integrations/logicmanager.md)
+* [Identity Providers](integrations/identity-providers/README.md)
+  * [Okta](integrations/okta.md)
+  * [Microsoft Entra ID](integrations/microsoft-entra-id.md)
+* [Google](integrations/google/README.md)
+  * [Google Workspace](integrations/google-workspace.md)
+  * [Gmail](integrations/gmail.md)
+  * [Google Drive](integrations/google-drive.md)
+  * [GCP (Google Cloud Platform)](integrations/gcp-google-cloud-platform.md)
+* [Cloud Security](integrations/cloud-security/README.md)
+  * [Wiz](integrations/wiz.md)
+  * [Netskope](integrations/netskope.md)
