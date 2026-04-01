@@ -14,7 +14,7 @@
 
 * [Third Parties](inventory/third-parties/README.md)
   * [Adding a Third Party](inventory/third-parties/adding-third-party.md)
-  * [Third-Party Affiliates](inventory/third-parties/third-party-affiliates.md)
+  * [Third-Party Affiliates vs Engagements](inventory/third-parties/third-party-affiliates.md)
   * [Engagements](inventory/third-parties/third-party-engagements.md)
   * [Third-Party Profile](inventory/third-parties/third-party-management/README.md)
     * [Inherent Risk Profile](inventory/third-parties/third-party-management/inherent-risk-profile.md)
