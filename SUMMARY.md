@@ -25,7 +25,7 @@
     * [Permissions](inventory/third-parties/third-party-management/permissions.md)
     * [Usage](inventory/third-parties/third-party-management/usage.md)
   * [Third-Party Affiliate vs Engagement](inventory/third-parties/third-party-affiliates.md)
-  * [Fourth Parties](inventory/third-parties/fourth-parties.md)
+* [Fourth Parties](inventory/fourth-parties.md)
 
 ## Assessments
 
@@ -39,7 +39,6 @@
   * [Controls](assessments/managing-assessment/controls.md)
   * [Concluding an Assessment](assessments/managing-assessment/concluding-assessment.md)
 * [Assessment Summary](assessments/assessment-summary.md)
-* [Vendor Portal](assessments/vendor-portal.md)
 * [Assessment Score (Residual Risk)](assessments/assessment-score-residual-risk.md)
 
 ## Monitoring
