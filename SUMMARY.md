@@ -43,8 +43,8 @@
 
 ## Monitoring
 
-* [Agentic Risk Engineer](monitoring/agentic-risk-engineer.md)
 * [Findings](monitoring/findings.md)
+* [Agentic Risk Engineer](monitoring/agentic-risk-engineer.md)
 
 ## Analytics
 
