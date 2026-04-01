@@ -3,7 +3,7 @@
 ## Get Started
 
 * [Quick Start](README.md)
-* [Concepts](get-started/concepts.md)
+* [Core Concepts](get-started/concepts.md)
 
 ## Intake
 

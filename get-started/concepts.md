@@ -1,9 +1,20 @@
-# Concepts
+# Core Concepts
+
+Third party
+
+Affiliate
+
+Engagement
+
+Projects
 
 Controls
 
-IRQ
-
 Scopes
 
+IRQ
+
+Assessment
+
 Assessment Score
+
