@@ -39,6 +39,7 @@
   * [Issues](assessments/managing-assessment/issues.md)
   * [Artifacts](assessments/managing-assessment/artifacts.md)
   * [Concluding an Assessment](assessments/managing-assessment/concluding-assessment.md)
+* [Assessment Score (Residual Risk)](assessments/assessment-score-residual-risk.md)
 
 ## Monitoring
 
