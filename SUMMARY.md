@@ -14,10 +14,9 @@
 
 * [Third Parties](inventory/third-parties/README.md)
   * [Adding a Third Party](inventory/third-parties/adding-third-party.md)
-  * [Third-Party Affiliates vs Engagements](inventory/third-parties/third-party-affiliates.md)
-  * [Engagements](inventory/third-parties/third-party-engagements.md)
   * [Third-Party Profile](inventory/third-parties/third-party-management/README.md)
     * [Inherent Risk Profile](inventory/third-parties/third-party-management/inherent-risk-profile.md)
+    * [Engagements](inventory/third-parties/third-party-management/third-party-engagements.md)
     * [Assessments](inventory/third-parties/third-party-management/assessments.md)
     * [Controls](inventory/third-parties/third-party-management/controls.md)
     * [Findings](inventory/third-parties/third-party-management/findings.md)
@@ -25,7 +24,8 @@
     * [Assets](inventory/third-parties/third-party-management/assets.md)
     * [Permissions](inventory/third-parties/third-party-management/permissions.md)
     * [Usage](inventory/third-parties/third-party-management/usage.md)
-* [Fourth Parties](inventory/fourth-parties.md)
+  * [Third-Party Affiliate vs Engagement](inventory/third-parties/third-party-affiliates.md)
+  * [Fourth Parties](inventory/third-parties/fourth-parties.md)
 
 ## Assessments
 
