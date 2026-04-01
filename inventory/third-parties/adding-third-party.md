@@ -1,6 +1,8 @@
-# Adding a Third Party
+---
+description: Manually add a vendor to your inventory
+---
 
-## Adding a Third Party
+# Adding a Third Party
 
 To manually add a vendor to your inventory, click **+ Add Third-Party** in the top right of the Inventory page.
 
