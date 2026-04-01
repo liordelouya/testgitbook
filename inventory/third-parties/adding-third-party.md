@@ -26,7 +26,9 @@ Lema uses the vendor's domain to automatically enrich the vendor profile — pul
 {% endhint %}
 
 {% hint style="info" %}
-If you're adding a third-party without a domain, consider whether it should be created as an [Affiliated Third-Party or Engagement](third-party-affiliates.md). This keeps your inventory clean and maintains the relationship to the parent vendor. See Third-Party Affiliates for more.
+If you're adding a third-party without a domain, consider whether it should be created as an [Affiliated Third-Party or Engagement](third-party-affiliates.md). This keeps your inventory clean and maintains the relationship to the parent vendor. See Third-Party Affiliates for more.\
+\
+In these cases, mark the vendor as an **Affiliated Third-Party** and link it to the parent vendor in your inventory. The domain field is optional for affiliated third parties.
 {% endhint %}
 {% endstep %}
 
