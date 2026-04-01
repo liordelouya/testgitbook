@@ -12,7 +12,7 @@ The Assessment Score combines your **control weights**, each control's **validat
 
 Lema calculates the ratio of validated control weight to total control weight across all controls in the assessment scope:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="502"><figcaption></figcaption></figure>
 
 **Step 2 — Scoring Matrix**
 
