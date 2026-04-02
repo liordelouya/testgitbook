@@ -1,7 +1,5 @@
 # Lema documentation
 
-## Lema Documentation
-
 Lema is an agentic third-party risk management platform. It automates the work of assessing, monitoring, and managing vendor risk — so your team focuses on decisions, not data collection.
 
 {% hint style="info" %}
