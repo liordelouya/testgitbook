@@ -2,7 +2,7 @@
 
 ## Get Started
 
-* [Lema documentation](README.md)
+* [Lema documentation (TBD)](README.md)
 * [Quickstart](<README (1).md>)
 * [Core concepts](get-started/concepts.md)
 
