@@ -1,123 +1,141 @@
----
-description: Get from zero to your first completed vendor assessment in Lema in minutes.
----
+# Lema documentation
 
-# Quick Start
+## Lema Documentation
 
-{% stepper %}
-{% step %}
-### Invite your team
+Lema is an agentic third-party risk management platform. It automates the work of assessing, monitoring, and managing vendor risk — so your team focuses on decisions, not data collection.
 
-Go to **Settings → Users and Access** and invite the risk engineers, reviewers, and business owners who will participate in your TPRM program.
-
-| Role       | Access                                                   |
-| ---------- | -------------------------------------------------------- |
-| **Admin**  | Full access including settings and integrations          |
-| **Member** | Operational access to assessments, vendors, and findings |
-| **Viewer** | Read-only access for stakeholders who need visibility    |
-
-Learn more about Users and Access →
-{% endstep %}
-
-{% step %}
-### Add your first third party
-
-{% tabs %}
-{% tab title="Manually" %}
-Go to **Inventory → Third Parties** and click **+ Add Third Party**. Provide the company domain and basic profile details. Lema will enrich the profile automatically.
-{% endtab %}
-
-{% tab title="Via Intake portal" %}
-Share the **Request Portal** with your business teams so they can submit new vendor requests directly. Submitted requests appear in the **Requests Queue** for a risk engineer to review and accept.
-{% endtab %}
-
-{% tab title="Via Integration" %}
-Connect your procurement tools — such as Ramp, Zip and more.
-
-Learn more about Integrations →
-{% endtab %}
-{% endtabs %}
-
-Learn more about Adding a Third Party →
-{% endstep %}
-
-{% step %}
-### Complete the Inherent Risk Questionnaire
-
-Open the vendor profile and go to the **Inherent Risk** tab. Lema pre-populates the IRQ using AI-powered estimations based on the vendor's domain and profile data. Review each answer and confirm the inherent risk level.
-
-{% hint style="warning" %}
-The IRQ determines which scopes — and therefore which controls — activate in the assessment. Getting this right before starting is the single most important step in the workflow.
+{% hint style="info" %}
+New to Lema? Start with the Quickstart to complete your first assessment, or read the Concepts guide to understand how Lema thinks about TPRM.
 {% endhint %}
 
-Learn more about Inherent Risk →
-{% endstep %}
-
-{% step %}
-### Start an assessment
-
-Go to **Assessments** and click **+ New Assessment**. Select the vendor, then choose which projects should participate. Each project brings its own assessors and control scopes — scopes activate automatically based on the vendor's IRQ answers, so only relevant controls are included.
-
-Learn more about Starting an Assessment →
-{% endstep %}
-
-{% step %}
-### Review control outcomes
-
-Once the assessment is open, Lema evaluates each in-scope control automatically against existing artifacts, integration data, and previous questionnaire responses.
-
-Open the **Issues** tab to see:
-
-* Controls already **validated** by Lema
-* Controls with **gaps** that need attention
-* Controls **waiting on evidence** from the vendor
-
-Learn more about Issues →
-{% endstep %}
-
-{% step %}
-### Request missing evidence
-
-For controls that couldn't be validated automatically, send a **Smart Evidence Request** directly from the Issues tab.
-
-Lema generates a targeted request listing exactly what's missing — not a generic questionnaire. The vendor receives a link to their portal to upload the required documents.
-
-Learn more about Smart Evidence Requests →
-{% endstep %}
-
-{% step %}
-### Conclude and share
-
-Go to the **Conclusion** tab. Click **Generate AI Summary** to draft a narrative, review the control outcome breakdown, then issue your decision.
-
-Once concluded, Lema automatically generates an **Executive Summary** ready to share with leadership, legal, or procurement.
-
-Learn more about Concluding an Assessment →
-{% endstep %}
-{% endstepper %}
-
-### What's next?
+### Get Started
 
 {% columns %}
 {% column %}
-#### Control framework customization
+#### Quickstart
 
-Lema ships with a predefined control library. To customize the control framework to match your organization's standards, contact your Lema customer success representative.
+Go from zero to your first completed vendor assessment.
+
+Read the Quickstart →
 {% endcolumn %}
 
 {% column %}
-#### Scopes customization
+#### Concepts
 
-Configure rule-based scopes to control which assessments run for which vendors — based on inherent risk level and IRQ responses.
+Understand the building blocks of Lema — third parties, controls, scopes, assessments, and more.
+
+Read the Concepts →
+{% endcolumn %}
+
+{% column %}
+
+{% endcolumn %}
+{% endcolumns %}
+
+### Platform
+
+{% columns %}
+{% column %}
+#### Intake
+
+Manage how new vendors enter your program — through a self-service request portal or directly from your team.
+
+Request Portal → Requests Queue →
+{% endcolumn %}
+
+{% column %}
+#### Inventory
+
+Your single source of truth for all third parties, fourth parties, affiliates, and engagements.
+
+Third Parties → Fourth Parties →
+{% endcolumn %}
+
+{% column %}
+#### Assessments
+
+Run AI-powered assessments that evaluate controls automatically and only contact vendors when evidence is truly missing.
+
+Assessments → Assessment Score →
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Monitoring
+
+Continuous adversarial signal detection across your entire vendor inventory — service outages, data breaches, litigation, and more.
+
+Findings →
+{% endcolumn %}
+
+{% column %}
+#### Analytics
+
+Track risk posture, program coverage, and team efficiency across your full third-party portfolio.
+
+Risk Dashboard → Business Coverage → Efficiency →
+{% endcolumn %}
+
+{% column %}
+#### Integrations
+
+Connect your identity providers, procurement tools, and cloud security platforms to enrich vendor profiles and automate evidence collection.
+
+Integrations →
+{% endcolumn %}
+{% endcolumns %}
+
+### Settings
+
+{% columns %}
+{% column %}
+#### Users and Access
+
+Invite team members and assign roles.
+
+Users and Access →
+{% endcolumn %}
+
+{% column %}
+#### Scopes
+
+Define which controls run for which vendors using rule-based activation logic.
 
 Scopes →
 {% endcolumn %}
 
 {% column %}
-#### IRQ customization
+#### Inherent Risk
 
-Edit the Inherent Risk Questionnaire to capture the data signals that matter most to your program, and adjust per-answer risk levels to match your risk appetite.
+Customize the IRQ to capture the risk signals that matter to your program.
 
 Inherent Risk →
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Controls
+
+Configure control weights and enable or disable individual controls across your framework.
+
+Controls →
+{% endcolumn %}
+
+{% column %}
+#### Projects
+
+Assign assessors to control scopes and delegate assessment responsibilities across teams.
+
+Projects →
+{% endcolumn %}
+
+{% column %}
+#### SSO
+
+Connect your identity provider for single sign-on.
+
+SSO Configuration →
 {% endcolumn %}
 {% endcolumns %}

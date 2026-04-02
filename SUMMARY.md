@@ -2,20 +2,21 @@
 
 ## Get Started
 
-* [Quick Start](README.md)
-* [Core Concepts](get-started/concepts.md)
+* [Lema documentation](README.md)
+* [Quickstart](<README (1).md>)
+* [Core concepts](get-started/concepts.md)
 
 ## Intake
 
-* [Third-Party Request Portal](intake/third-party-request-portal.md)
-* [Requests Queue](intake/requests-queue.md)
+* [Third-party request portal](intake/third-party-request-portal.md)
+* [Requests queue](intake/requests-queue.md)
 
 ## Inventory
 
-* [Third Parties](inventory/third-parties/README.md)
-  * [Adding a Third Party](inventory/third-parties/adding-third-party.md)
-  * [Third-Party Profile](inventory/third-parties/third-party-management/README.md)
-    * [Inherent Risk Profile](inventory/third-parties/third-party-management/inherent-risk-profile.md)
+* [Third parties](inventory/third-parties/README.md)
+  * [Adding a third-party](inventory/third-parties/adding-third-party.md)
+  * [Third-party profile](inventory/third-parties/third-party-management/README.md)
+    * [Inherent risk profile](inventory/third-parties/third-party-management/inherent-risk-profile.md)
     * [Engagements](inventory/third-parties/third-party-management/third-party-engagements.md)
     * [Assessments](inventory/third-parties/third-party-management/assessments.md)
     * [Controls](inventory/third-parties/third-party-management/controls.md)
@@ -24,53 +25,53 @@
     * [Assets](inventory/third-parties/third-party-management/assets.md)
     * [Permissions](inventory/third-parties/third-party-management/permissions.md)
     * [Usage](inventory/third-parties/third-party-management/usage.md)
-  * [Third-Party Affiliate vs Engagement](inventory/third-parties/third-party-affiliates.md)
-* [Fourth Parties](inventory/fourth-parties.md)
+  * [Third-party affiliate vs. engagement](inventory/third-parties/third-party-affiliates.md)
+* [Fourth-parties](inventory/fourth-parties.md)
 
 ## Assessments
 
-* [Assessments Directory](assessments/assessments-directory.md)
-* [Starting an Assessment](assessments/new-assessment.md)
-* [Managing an Assessment](assessments/managing-assessment/README.md)
+* [Assessments directory](assessments/assessments-directory.md)
+* [Starting an assessment](assessments/new-assessment.md)
+* [Managing an assessment](assessments/managing-assessment/README.md)
   * [Overview](assessments/managing-assessment/overview.md)
   * [Issues](assessments/managing-assessment/issues.md)
   * [Artifacts](assessments/managing-assessment/artifacts.md)
   * [Questionnaires](assessments/managing-assessment/questionnaires.md)
   * [Controls](assessments/managing-assessment/controls.md)
-  * [Concluding an Assessment](assessments/managing-assessment/concluding-assessment.md)
-* [Assessment Summary](assessments/assessment-summary.md)
-* [Assessment Score (Residual Risk)](assessments/assessment-score-residual-risk.md)
+  * [Concluding an assessment](assessments/managing-assessment/concluding-assessment.md)
+* [Assessment summary](assessments/assessment-summary.md)
+* [Assessment score (residual risk)](assessments/assessment-score-residual-risk.md)
 
 ## Monitoring
 
 * [Findings](monitoring/findings.md)
-* [Agentic Risk Engineer](monitoring/agentic-risk-engineer.md)
+* [Risk insights](monitoring/agentic-risk-engineer.md)
 
 ## Analytics
 
 * [Efficiency](analytics/efficiency.md)
 * [Risk](analytics/risk.md)
-* [Business Coverage](analytics/business.md)
+* [Business coverage](analytics/business.md)
 
 ## Settings
 
-* [Users & Permissions](settings/users-and-permissions.md)
+* [Users & access permissions](settings/users-and-permissions.md)
 * [SSO](settings/sso.md)
 * [Notifications](settings/notifications.md)
-* [Third-Party Settings](settings/third-party-settings/README.md)
-  * [Inherent Risk Questionnaire](settings/third-party-settings/inherent-risk.md)
-  * [Custom Fields](settings/third-party-settings/custom-fields.md)
-* [Assessment Settings](settings/assessment-settings/README.md)
+* [Third-party settings](settings/third-party-settings/README.md)
+  * [Inherent risk questionnaire](settings/third-party-settings/inherent-risk.md)
+  * [Custom fields](settings/third-party-settings/custom-fields.md)
+* [Assessment settings](settings/assessment-settings/README.md)
   * [Projects](settings/assessment-settings/projects.md)
   * [Scopes](settings/assessment-settings/scopes.md)
   * [Cadence](settings/assessment-settings/cadance.md)
   * [Controls](settings/assessment-settings/controls.md)
-  * [Questionnaire Templates](settings/assessment-settings/questionnaires-templates.md)
-  * [Summary Template](settings/assessment-settings/summary-template.md)
+  * [Questionnaire templates](settings/assessment-settings/questionnaires-templates.md)
+  * [Summary template](settings/assessment-settings/summary-template.md)
 
 ## Integrations
 
-* [Procurement Integrations](integrations/procurement-integrations/README.md)
+* [Procurement integrations](integrations/procurement-integrations/README.md)
   * [Jira](integrations/procurement-integrations/jira.md)
   * [Coupa](integrations/procurement-integrations/coupa.md)
   * [Zip](integrations/procurement-integrations/zip.md)
@@ -80,7 +81,7 @@
   * [OneTrust](integrations/procurement-integrations/onetrust.md)
   * [Graphite Connect](integrations/procurement-integrations/graphiteconnect.md)
   * [LogicManager](integrations/procurement-integrations/logicmanager.md)
-* [Identity Providers](integrations/identity-providers/README.md)
+* [Identity providers](integrations/identity-providers/README.md)
   * [Okta](integrations/identity-providers/okta.md)
   * [Microsoft Entra ID](integrations/identity-providers/microsoft-entra-id.md)
 * [Google](integrations/google/README.md)
@@ -88,6 +89,6 @@
   * [Gmail](integrations/google/gmail.md)
   * [Google Drive](integrations/google/google-drive.md)
   * [GCP (Google Cloud Platform)](integrations/google/gcp-google-cloud-platform.md)
-* [Cloud Security](integrations/cloud-security/README.md)
+* [Cloud security](integrations/cloud-security/README.md)
   * [Wiz](integrations/cloud-security/wiz.md)
   * [Netskope](integrations/cloud-security/netskope.md)
