@@ -58,7 +58,7 @@
 * [SSO](settings/sso.md)
 * [Notifications](settings/notifications.md)
 * [Third-Party Settings](settings/third-party-settings/README.md)
-  * [Inherent Risk](settings/third-party-settings/inherent-risk.md)
+  * [Inherent Risk Questionnaire](settings/third-party-settings/inherent-risk.md)
   * [Custom Fields](settings/third-party-settings/custom-fields.md)
 * [Assessment Settings](settings/assessment-settings/README.md)
   * [Scopes](settings/assessment-settings/scopes.md)

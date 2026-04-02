@@ -2,9 +2,9 @@
 description: Structured questionnaire to calculate a vendor's inherent risk level
 ---
 
-# Inherent Risk
+# Inherent Risk Questionnaire
 
-The IRQ is the structured questionnaire Lema uses to calculate a vendor's inherent risk level — editing it changes how risk is projected across your entire inventory.
+The IRQ is a structured questionnaire Lema uses to calculate a vendor's inherent risk level — editing it changes how risk is projected across your entire inventory.
 
 ### Structure
 
@@ -38,10 +38,8 @@ Add a description to any question to give context to the person filling in the I
 
 Use the three-dot menu on any section to add a new question within it, or add a new section from the panel. Newly added questions follow the same structure: question type, answer options, and per-answer risk level.
 
-### Resetting to Default
 
-Click **Reset to default** to restore the Lema-recommended IRQ template. This will overwrite any customizations you have made.
 
 {% hint style="warning" %}
-Changes to the IRQ affect how inherent risk is projected for all vendors. Existing vendors whose IRQ has already been completed will not be automatically re-evaluated — a re-projection or manual review may be required.
+Changes to the IRQ affect how inherent risk is projected for all vendors. Existing vendors whose IRQ has already been completed will not be automatically re-evaluated.
 {% endhint %}
