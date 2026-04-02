@@ -1,10 +1,8 @@
+---
+description: Get from zero to your first completed vendor assessment in Lema in minutes.
+---
+
 # Quick Start
-
-Get from zero to your first completed vendor assessment in Lema.
-
-{% hint style="info" %}
-**Before you begin:** Make sure your control framework, scopes, and projects are configured in Settings. If you're starting fresh, ask your Lema administrator to complete setup first.
-{% endhint %}
 
 {% stepper %}
 {% step %}
@@ -29,8 +27,14 @@ Learn more about Users and Access →
 Go to **Inventory → Third Parties** and click **+ Add Third Party**. Provide the company domain and basic profile details. Lema will enrich the profile automatically.
 {% endtab %}
 
-{% tab title="Via Intake" %}
+{% tab title="Via Intake portal" %}
 Share the **Request Portal** with your business teams so they can submit new vendor requests directly. Submitted requests appear in the **Requests Queue** for a risk engineer to review and accept.
+{% endtab %}
+
+{% tab title="Via Integration" %}
+Connect your procurement tools — such as Ramp, Zip and more.
+
+Learn more about Integrations →
 {% endtab %}
 {% endtabs %}
 
