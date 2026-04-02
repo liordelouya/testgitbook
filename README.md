@@ -6,7 +6,7 @@ Lema is an agentic third-party risk management platform. It automates the work o
 
 ### Get Started
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quickstart</strong></td><td>Go from zero to your first completed vendor assessment.</td><td><a href="README (1).md">README (1).md</a></td><td></td></tr><tr><td><strong>Concepts</strong></td><td>Understand the building blocks of Lema — third parties, controls, scopes, assessments, and more.</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="README (1).md"><strong>Quickstart</strong></a></td><td>Go from zero to your first completed vendor assessment.</td><td></td></tr><tr><td><strong>Concepts</strong></td><td>Understand the building blocks of Lema — third parties, controls, scopes, assessments, and more.</td><td></td></tr></tbody></table>
 
 ### Platform
 
