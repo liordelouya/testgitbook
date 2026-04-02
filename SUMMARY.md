@@ -48,9 +48,9 @@
 
 ## Analytics
 
-* [Risk](analytics/risk.md)
-* [Business](analytics/business.md)
 * [Efficiency](analytics/efficiency.md)
+* [Risk](analytics/risk.md)
+* [Business Coverage](analytics/business.md)
 
 ## Settings
 
