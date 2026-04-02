@@ -1,17 +1,102 @@
-# Lema documentation (TBD)
+---
+description: >-
+  Push procurement requests and vendor data from external systems directly into
+  Lema
+---
 
-Lema is an agentic third-party risk management platform. It automates the work of assessing, monitoring, and managing vendor risk — so your team focuses on decisions, not data collection.
+# Create/Update Third Party API
 
+{% hint style="info" %}
+### Prerequisites
 
+* Access to a procurement system that can send webhooks
+* Ability to manipulate the webhook request body
+{% endhint %}
 
-### Get Started
+### Generate a Webhook URL
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quickstart</strong></td><td>Go from zero to your first completed vendor assessment.</td><td></td></tr><tr><td><strong>Concepts</strong></td><td>Understand the building blocks of Lema — third parties, controls, scopes, assessments, and more.</td><td></td></tr></tbody></table>
+{% stepper %}
+{% step %}
+#### Open Integrations
 
-### Platform
+Go to **Integrations** and click **+ Add Integration**, then select **Webhook**.
+{% endstep %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Intake</strong></td><td>Manage how new vendors enter your program through a self-service request portal, integrations, or directly from your team.</td><td></td></tr><tr><td><strong>Inventory</strong></td><td>Your single source of truth for all third parties, fourth parties, affiliates, and engagements.</td><td></td></tr><tr><td><strong>Assessments</strong></td><td>AI-powered assessments that evaluate controls automatically and only contact vendors when evidence is truly missing.</td><td></td></tr><tr><td><strong>Monitoring</strong></td><td>Continuous adversarial signal detection across your vendor inventory — outages, breaches, litigation, and more.</td><td></td></tr><tr><td><strong>Analytics</strong></td><td>Track risk posture, program coverage, and team efficiency across your full third-party portfolio.</td><td></td></tr><tr><td><strong>Integrations</strong></td><td>Connect identity providers, procurement tools, and cloud security platforms to automate evidence collection.</td><td></td></tr></tbody></table>
+{% step %}
+#### Name Your Integration
 
-### Settings
+Provide an optional **Identifier** — used for internal management only.
+{% endstep %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Users and Access</strong></td><td>Invite team members and assign roles.</td><td></td></tr><tr><td><strong>Scopes</strong></td><td>Define which controls run for which vendors using rule-based activation logic.</td><td></td></tr><tr><td><strong>Inherent Risk</strong></td><td>Customize the IRQ to capture the risk signals that matter to your program.</td><td></td></tr><tr><td><strong>Controls</strong></td><td>Configure control, their weights and assign them to an assessment scope. </td><td></td></tr><tr><td><strong>Projects</strong></td><td>Assign assessors to control scopes and delegate assessment responsibilities across teams.</td><td></td></tr><tr><td><strong>SSO</strong></td><td>Connect your identity provider for single sign-on.</td><td></td></tr></tbody></table>
+{% step %}
+#### Generate the URL
+
+Click **Generate Webhook URL** and wait for the pop-up with the new URL.
+{% endstep %}
+
+{% step %}
+#### Copy and Save
+
+Click **Copy & Close** to copy the URL to your clipboard.
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" %}
+**Store your webhook URL immediately.** This is the only time you can view and copy it. It cannot be retrieved later.
+{% endhint %}
+
+### Custom Fields
+
+Custom fields allow you to pass additional structured data alongside the standard payload fields.
+
+{% hint style="info" %}
+To use custom fields, they must first be defined in Lema under **Settings → Custom Fields → Add Custom Field**.
+{% endhint %}
+
+**Supported types:** `text`, `date`, `multi-select`
+
+#### Behavior
+
+| Scenario                                    | Result                                           |
+| ------------------------------------------- | ------------------------------------------------ |
+| Sending a value                             | Overwrites any existing value for that field     |
+| Sending an empty value                      | Not permitted — will not clear an existing value |
+| Field name not pre-defined in Lema          | Value is ignored                                 |
+| `multi-select` value not in predefined list | Value is ignored                                 |
+
+### Processing Logic and Deduplication
+
+When Lema receives a webhook payload, it checks whether to create a new record or update an existing one. Fields are evaluated in the following priority order:
+
+<table><thead><tr><th width="120.2890625">Priority</th><th>Field</th></tr></thead><tbody><tr><td>1</td><td><code>requestId</code></td></tr><tr><td>2</td><td><code>vendorId</code></td></tr><tr><td>3</td><td><code>vendorWebsite</code></td></tr><tr><td>4</td><td><code>name</code></td></tr></tbody></table>
+
+{% tabs %}
+{% tab title="Existing Record" %}
+If the `requestId` already exists, the payload **updates** that record.
+{% endtab %}
+
+{% tab title="New Record" %}
+If the `requestId` is new or absent, Lema checks the remaining fields to **prevent duplicate entries** before creating a new record.
+{% endtab %}
+{% endtabs %}
+
+#### Field Update Behavior
+
+* **Immutable fields** — Core identification fields cannot be changed after a record is created. Subsequent payloads with new values for these fields are ignored.
+* **Editable fields** — All other fields, including custom fields, are overwritten by the incoming value.
+
+### Reference Values
+
+{% tabs %}
+{% tab title="Department Names" %}
+`Legal` `IT` `Finance` `Security` `R&D` `HR` `Operations` `Sales` `Marketing` `Customer Success` `Product`
+{% endtab %}
+
+{% tab title="Vendor Status" %}
+`Assessment Required` `In Assessment`
+{% endtab %}
+
+{% tab title="Vendor Lifecycle" %}
+`Unsanctioned` `Onboarded` `In Evaluation` `Offboarded` `Archived`
+{% endtab %}
+{% endtabs %}
