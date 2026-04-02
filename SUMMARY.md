@@ -61,6 +61,7 @@
   * [Inherent Risk Questionnaire](settings/third-party-settings/inherent-risk.md)
   * [Custom Fields](settings/third-party-settings/custom-fields.md)
 * [Assessment Settings](settings/assessment-settings/README.md)
+  * [Projects](settings/assessment-settings/projects.md)
   * [Scopes](settings/assessment-settings/scopes.md)
   * [Cadence](settings/assessment-settings/cadance.md)
   * [Controls](settings/assessment-settings/controls.md)
