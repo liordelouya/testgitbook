@@ -2,7 +2,7 @@
 
 ## Get Started
 
-* [Lema documentation (TBD)](README.md)
+* [Lema documentation](README.md)
 * [Quickstart](<README (1).md>)
 * [Core concepts](get-started/concepts.md)
 
@@ -71,7 +71,7 @@
 
 ## Integrations
 
-* [Procurement integrations](integrations/procurement-integrations/README.md)
+* [Procurement](integrations/procurement-integrations/README.md)
   * [Jira](integrations/procurement-integrations/jira.md)
   * [Coupa](integrations/procurement-integrations/coupa.md)
   * [Zip](integrations/procurement-integrations/zip.md)
