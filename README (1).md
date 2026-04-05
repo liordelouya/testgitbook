@@ -16,7 +16,7 @@ Go to **Settings → Users and Access** and invite the risk engineers, reviewers
 | **Member** | Operational access to assessments, vendors, and findings |
 | **Viewer** | Read-only access for stakeholders who need visibility    |
 
-Learn more about [Users and Access →](settings/users-and-permissions.md)
+Learn more about [Users & access →](settings/users-and-permissions.md)
 {% endstep %}
 
 {% step %}
@@ -24,7 +24,7 @@ Learn more about [Users and Access →](settings/users-and-permissions.md)
 
 {% tabs %}
 {% tab title="Manually" %}
-Go to **Inventory → Third Parties** and click **+ Add Third Party**. Provide the company domain and basic profile details. Lema will enrich the profile automatically.
+Go to **Inventory → Third Parties** and click **+ Add Third-party**. Provide the company domain and basic profile details. Lema will enrich the profile automatically.
 {% endtab %}
 
 {% tab title="Via Intake portal" %}
@@ -34,17 +34,17 @@ Share the **Request Portal** with your business teams so they can submit new ven
 {% tab title="Via Integration" %}
 Connect your procurement tools — such as Ramp, Zip and more.
 
-Learn more about Integrations →
+Learn more about procurement [Integrations →](/broken/pages/ycZ7DfxZ0IBcicVScDkU)
 {% endtab %}
 {% endtabs %}
 
-Learn more about [Adding a Third Party →](inventory/third-parties/adding-third-party.md)
+Learn more about [Adding a Third-party →](inventory/third-parties/adding-third-party.md)
 {% endstep %}
 
 {% step %}
 ### Complete the Inherent Risk Questionnaire
 
-Open the vendor profile and go to the **Inherent Risk** tab. Lema pre-populates the IRQ using AI-powered estimations based on the vendor's domain and profile data. Review each answer and confirm the inherent risk level.
+Open the vendor profile and open the **Inherent Risk** profile. Lema pre-populates the IRQ using AI-powered estimations based on the vendor's domain and profile data. Review each answer and confirm the inherent risk level.
 
 {% hint style="warning" %}
 The IRQ determines which scopes — and therefore which controls — activate in the assessment. Getting this right before starting is the single most important step in the workflow.

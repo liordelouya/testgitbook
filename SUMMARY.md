@@ -55,7 +55,7 @@
 
 ## Settings
 
-* [Users & access permissions](settings/users-and-permissions.md)
+* [Users & access](settings/users-and-permissions.md)
 * [SSO](settings/sso.md)
 * [Notifications](settings/notifications.md)
 * [Third-party settings](settings/third-party-settings/README.md)
